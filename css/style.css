@@ -1,0 +1,108 @@
+.main-container {
+    background-color: #444;
+    color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+
+}
+
+.logo-text{
+    font-size: 25px;
+}
+
+.logo-inline-text{
+    color: #ffbd39;
+    background-color: transparent;
+    margin: 2px;
+}
+
+.nav-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* Banner styles  */
+.banner-container{
+    height:70vh;
+    background-color: #444;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:50px;
+    color: #f8f9fa;
+}
+.information{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-text{
+    width:80;
+    text-align:justify;
+}
+.buttons-section{
+    display:flex;
+    margin-top:30px;
+    gap:20px;
+}
+.info-button-hire{
+    width:20%;
+    padding:20px;
+    text-align: center;
+    background-color: #7b68ee;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+.info-button-cv{
+    width:25%;
+    padding:20px;
+    text-align: center;
+    background-color: #ffbd39;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+.info-button-hire:hover,
+.info-button-cv:hover{
+   background-color: #0d6efd;
+   transition: all 1s ease-in-out;
+}
+/* banner education */
+.portfolio-education{
+      background-color: hsl(0, 0%, 20%);
+      margin:0%;
+      padding: 50px;
+      color:#f8f9fa;
+      text-align: center;
+}
+.edu-title{
+    padding: 2%;
+    font-size: 40px;
+    
+}
+.resume{
+    font-size: 40px;
+}
+.Education-box{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.edu-info-box{
+    box-shadow: rgba(119, 119, 128, 0.927) 0px 7px 29px 0px;
+    border-radius: 5px;
+    
+}
+
+.box1{
+    background-color: #ffbd39;
+    height:20px;
+    width:90px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top:40px;
+    
+}
